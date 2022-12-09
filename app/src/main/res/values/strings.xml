@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HiltTestingApplication(ArtBook)</string>
+    <string name="art_name">Art name</string>
+    <string name="author_name">Author name</string>
+    <string name="year">Year</string>
+    <string name="save">Save</string>
+    <string name="enter_name">Enter name</string>
+    <string name="search_image">Search image</string>
+    <string name="by_clicking_on_it_user_may_choose_an_image">By clicking on it,user may choose an image</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+<ImageView
+    android:id="@+id/artRowImageView"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/ic_launcher_background"
+    android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/paintingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PictureNameTextViewStyle"
+            android:hint="@string/art_name" />
+
+        <TextView
+            android:id="@+id/authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/author_name"
+            style="@style/AuthorAndYearTextViewStyle"/>
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AuthorAndYearTextViewStyle"
+            android:hint="@string/year"/>
+
+    </LinearLayout>
+
+</LinearLayout>
